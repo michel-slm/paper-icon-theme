@@ -67,6 +67,7 @@ elif [ "$UID" -ne "$ROOT_UID" ]; then
 		    ;;
 		esac
 	fi
+	mkdir -p $HOME/.local/share/icons
 	cp -R ./Paper/ $HOME/.local/share/icons/
 	echo "Installation complete!"
 	set
